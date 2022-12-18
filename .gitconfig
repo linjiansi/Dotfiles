@@ -1,0 +1,16 @@
+[core]
+  preloadindex = true
+
+[color]
+  ui = auto
+
+[user]
+  name = linjiansi
+  email = pmon.ken.1467@gmail.com
+
+[alias]
+  graph = log --graph --date-order --all --pretty=format:'%h %Cred%d %Cgreen%ad %C(cyan ul)%cn %Creset%s' --date=short
+  delete-merged-branches = !git branch --merged | grep -v \\* | xargs -I % git branch -d %
+
+[help]
+  autocorrect = 0
