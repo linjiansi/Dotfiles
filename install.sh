@@ -11,7 +11,7 @@ echo "start setup..."
 for f in .??*; do
   [ "$f" = ".git" ] && continue
 
-  ln -snfv ~/dotfiles"$f" ~/
+  ln -snfv ~/dotfiles/"$f" ~/
 done
 
 cat << EOF
