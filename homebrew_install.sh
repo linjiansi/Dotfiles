@@ -24,6 +24,8 @@ formulas=(
   terraform
   zsh-syntax-highlighting
   tree
+  cmake
+  ninja
 )
 
 echo "start brew install"
