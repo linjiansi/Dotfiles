@@ -48,7 +48,11 @@ export PATH="$PATH:$HOME/development/flutter/bin"
 
 export PATH="/usr/local/opt/openssl/bin:$PATH"
 
-source /Users/hayashi/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+export PATH="/Users/linjiansi/Library/Android/sdk/platform-tools:$PATH"
+
+export PATH=/Library/Developer/Toolchains/swift-latest.xctoolchain/usr/bin:"${PATH}"
+
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 alias vim='nvim'
